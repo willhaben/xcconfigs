@@ -7,27 +7,27 @@
 
 // Whether to strip debugging symbols when copying resources (like included
 // binaries)
-COPY_PHASE_STRIP = YES
+//COPY_PHASE_STRIP = YES
 
 // The optimization level (0, 1, 2, 3, s) for the produced binary
-GCC_OPTIMIZATION_LEVEL = s
+//GCC_OPTIMIZATION_LEVEL = s
 
 // Preproccessor definitions to apply to each file compiled
-GCC_PREPROCESSOR_DEFINITIONS = NDEBUG=1
+//GCC_PREPROCESSOR_DEFINITIONS = NDEBUG=1
 
 // Whether to enable link-time optimizations (such as inlining across translation
 // units)
-LLVM_LTO = NO
+//LLVM_LTO = NO
 
 // Whether to only build the active architecture
 ONLY_ACTIVE_ARCH = NO
 
 // Whether to strip debugging symbols when copying the built product to its
 // final installation location
-STRIP_INSTALLED_PRODUCT = YES
+//STRIP_INSTALLED_PRODUCT = YES
 
 // The optimization level (-Onone, -O, -Ofast) for the produced Swift binary
-SWIFT_OPTIMIZATION_LEVEL = -O
+//SWIFT_OPTIMIZATION_LEVEL = -O
 
 // Whether to perform App Store validation checks
 VALIDATE_PRODUCT = YES

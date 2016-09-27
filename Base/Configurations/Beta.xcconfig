@@ -1,0 +1,11 @@
+#include "Debug.xcconfig"
+
+// overwrites DEBUG=1 from Debug.xcconfig
+GCC_PREPROCESSOR_DEFINITIONS = BETA=1 $(inherited)
+// overwrites DEBUG from Debug.xcconfig
+// enables assertions, ignoring SWIFT_OPTIMIZATION_LEVEL
+OTHER_SWIFT_FLAGS = -D BETA -assert-config Debug
+
+VALIDATE_PRODUCT = YES
+
+ONLY_ACTIVE_ARCH = NO

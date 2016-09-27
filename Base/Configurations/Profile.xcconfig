@@ -11,17 +11,17 @@
 
 // Whether to strip debugging symbols when copying resources (like included
 // binaries)
-COPY_PHASE_STRIP = NO
+//COPY_PHASE_STRIP = NO
 
 // Whether to only build the active architecture
-ONLY_ACTIVE_ARCH = YES
+//ONLY_ACTIVE_ARCH = YES
 
 // Whether to strip debugging symbols when copying the built product to its
 // final installation location
-STRIP_INSTALLED_PRODUCT = NO
+//STRIP_INSTALLED_PRODUCT = NO
 
 // Whether to perform App Store validation checks
-VALIDATE_PRODUCT = NO
+//VALIDATE_PRODUCT = NO
 
 // Disable Developer ID timestamping
-OTHER_CODE_SIGN_FLAGS = --timestamp=none
+//OTHER_CODE_SIGN_FLAGS = --timestamp=none
