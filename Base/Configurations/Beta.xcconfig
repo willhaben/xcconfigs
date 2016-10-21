@@ -9,3 +9,12 @@ OTHER_SWIFT_FLAGS = -D BETA -assert-config Debug
 VALIDATE_PRODUCT = YES
 
 ONLY_ACTIVE_ARCH = NO
+
+// The optimization level (-Onone, -O, -Owholemodule) for the produced Swift binary
+//SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+
+// The optimization level (0, 1, 2, 3, s) for the produced binary
+GCC_OPTIMIZATION_LEVEL = s
+
+// Overrides Release.xcconfig when used at the target level.
+COPY_PHASE_STRIP = YES
