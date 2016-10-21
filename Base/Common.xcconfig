@@ -133,7 +133,6 @@ GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES
 
 // Whether to warn when the value returned from a function/method/block does not
 // match its return type
-//GCC_WARN_ABOUT_RETURN_TYPE = YES
 GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR
 
 // Whether to warn on a class not implementing all the required methods of
