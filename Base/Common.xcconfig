@@ -78,10 +78,10 @@ CLANG_ANALYZER_NONNULL = YES
 CLANG_WARN_UNREACHABLE_CODE = YES
 
 // The format of debugging symbols
-//DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
 // Whether to compile assertions in
-//ENABLE_NS_ASSERTIONS = YES
+ENABLE_NS_ASSERTIONS = YES
 
 // Whether to require objc_msgSend to be cast before invocation
 ENABLE_STRICT_OBJC_MSGSEND = YES
@@ -90,10 +90,10 @@ ENABLE_STRICT_OBJC_MSGSEND = YES
 GCC_C_LANGUAGE_STANDARD = gnu99
 
 // Whether to enable exceptions for Objective-C
-//GCC_ENABLE_OBJC_EXCEPTIONS = YES
+GCC_ENABLE_OBJC_EXCEPTIONS = YES
 
 // Whether to generate debugging symbols
-//GCC_GENERATE_DEBUGGING_SYMBOLS = YES
+GCC_GENERATE_DEBUGGING_SYMBOLS = YES
 
 // Whether to precompile the prefix header (if one is specified)
 GCC_PRECOMPILE_PREFIX_HEADER = YES
@@ -111,7 +111,7 @@ GCC_SYMBOLS_PRIVATE_EXTERN = NO
 GCC_THREADSAFE_STATICS = NO
 
 // Which compiler to use
-//GCC_VERSION = com.apple.compilers.llvm.clang.1_0
+GCC_VERSION = com.apple.compilers.llvm.clang.1_0
 
 // Whether warnings are treated as errors
 GCC_TREAT_WARNINGS_AS_ERRORS = YES
@@ -148,7 +148,7 @@ GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES
 
 // Whether to warn about an aggregate data type's initializer not being fully
 // bracketed (e.g., array initializer syntax)
-//GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES
+GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES
 
 // Whether to warn about missing braces or parentheses that make the meaning of
 // the code ambiguous
@@ -178,7 +178,7 @@ GCC_WARN_UNUSED_LABEL = YES
 GCC_WARN_UNUSED_VARIABLE = YES
 
 // Whether to run the static analyzer with every build
-//RUN_CLANG_STATIC_ANALYZER = YES
+RUN_CLANG_STATIC_ANALYZER = YES
 
 // Don't treat unknown warnings as errors, and disable GCC compatibility warnings and unused static const variable warnings
 WARNING_CFLAGS = -Wno-error=unknown-warning-option -Wno-gcc-compat -Wno-unused-const-variable
